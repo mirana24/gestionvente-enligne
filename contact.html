@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - MIR Mode</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-458FFC5QXC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-458FFC5QXC');
+</script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">MIR MODE</a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="produits.html">Produits</a>
+        <a href="apropos.html">A propos</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a class="btn btn-outline" href="produits.html">Voir le catalogue</a>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container contact-grid">
+      <section>
+        <p class="eyebrow">Besoin d'aide ?</p>
+        <h1 class="section-title">Contacte notre equipe</h1>
+        <!--p>
+          Ce formulaire est une maquette statique HTML/CSS. Tu peux le brancher ensuite a PHP, Node.js
+          ou un service externe pour recevoir les messages.
+        </p-->
+
+        <form class="contact-form" action="#" method="post">
+          <label for="nom">Nom complet</label>
+          <input id="nom" name="nom" type="text" placeholder="votre nom complet" />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="votre email" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Ton message..."></textarea>
+
+          <button class="btn btn-primary" type="submit">Envoyer</button>
+        </form>
+      </section>
+
+      <aside class="contact-panel">
+        <h2>Infos rapides</h2>
+        <p><strong>Email:</strong> contact@MIRmode.ma</p>
+        <p><strong>Telephone:</strong> +261 600 000 000</p>
+        <p><strong>Adresse:</strong> Fianarantsoa, Madagascar</p>
+        <p class="small-text">Lun - Sam: 9h00 - 18h00</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>2026 MIR Mode - Tous droits reserves.</p>
+      
+    </div>
+  </footer>
+</body>
+</html>
